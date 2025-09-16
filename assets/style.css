@@ -253,10 +253,12 @@ color: #62656D;
 
 .bg-img{
 background-image:url(../assets/images/Rectangle\ 20759.png) ;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .right-content{
-  
+  display: flex;
   justify-content: center;
   align-items: center;
 
@@ -304,14 +306,12 @@ img{
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1030px) {
   .row{
     flex-direction: column;
   }
 
-  .content{
-    width: 50%;
-  }
+
 
 
   .col-6{
